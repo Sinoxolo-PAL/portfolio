@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    background-image: url(./Tech\ \(4\).png);
+    padding-left: 5%;
+    height: 100vh;
+    margin: 0;
+    gap: 10px;
+    color: black; /* Text color */
+    font-size: em; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px); /* Adjust the number of columns and size as needed */
+    gap: 4em; /* Adjust the gap between circles */
+}
+
+.circle {
+    width: 7em; /* Adjust the size of the circles */
+    height: 7em;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); /* Adjust the background color of the circles */
+    border-radius: 50%; /* Creates a circle by setting border-radius to 50% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: px;
+}
+
+i {
+    font-size: 4em;
+}

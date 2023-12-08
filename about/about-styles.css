@@ -1,0 +1,55 @@
+
+html {
+    background-image: url(../about/Screenshot\ from\ 2023-11-30\ 13-50-55.png);
+    background-size: cover;
+    
+}
+
+body {
+
+    display: flex;
+    padding: 5% 10% 5% 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body > * {
+    height: 100vh;
+    width: 100%;
+    padding-left: 3%;
+    padding-bottom: 10%;
+    background-color: transparent;
+    border: 2px solid white;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+img {
+    margin: auto;
+    width: 90%;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: xx-large;
+    color: orange;
+    height: 20vh;
+}
+
+.multicolortext {
+    background-image: linear-gradient(to left, violet, rgb(105, 38, 153), rgb(4, 201, 4), rgb(48, 48, 190), yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+#personal {
+    border-left: 2px solid white;
+}
+
+p {
+    font-size: larger;
+    padding-right: 30%;
+}

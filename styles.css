@@ -1,0 +1,45 @@
+html {
+    background-image: url(./4315185.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    border: 2px solid white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#p0 {
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10%;
+    color: black;
+}
+
+ul {
+    display: flex;
+}
+
+ul > * {
+    flex-basis: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+    
+}
+
+a {
+    color:white;
+}
+
+a:hover {
+    color: rgb(0, 183, 255);
+    font-size: xx-large;
+}
+
+#links {
+    display: grid;
+}
+
